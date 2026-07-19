@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "endpoints": [
+    {
+      "endpoint": "/auth/login",
+      "method": "POST",
+      "backend": [
+        {
+          "url_pattern": "/auth/login",
+          "host": ["31.59.40.102:7613"]
+        }
+      ]
+    },
+    {
+      "endpoint": "/auth/token",
+      "method": "GET",
+      "backend": [
+        {
+          "url_pattern": "/auth/token",
+          "host": ["31.59.40.102:7613"]
+        }
+      ]
+    }
+  ]
+}
